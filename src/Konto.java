@@ -32,11 +32,5 @@ public class Konto {
         }
         return saldo;
     }
-    public int transfer(int i){
-        if(i > 0 && i <= saldo){
-
-        }
-        return saldo;
-    }
 }
 

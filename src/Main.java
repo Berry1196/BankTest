@@ -7,6 +7,7 @@ public class Main {
         String ans = "";
         Dialog dialog = new English();
 
+        Bank bank = new Bank();
         Konto konto1 = new Konto("Martin",100);
         Konto konto2 = new Konto("Berry",100);
 
@@ -29,6 +30,15 @@ public class Main {
                         break;
                     case "sve":
                         dialog = new Swedish();
+                        break;
+                    case "spa":
+                        dialog = new Spansk();
+                        break;
+                    case "Hwa":
+                        dialog = new Hawaiiansk();
+                        break;
+                    case "chi":
+                        dialog = new Chinese();
                         break;
                     default:
                         dialog = new English();
