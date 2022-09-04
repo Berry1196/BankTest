@@ -7,6 +7,9 @@ public class Main {
         String ans = "";
         Dialog dialog = new English();
 
+        Konto konto1 = new Konto("Martin",100);
+        Konto konto2 = new Konto("Berry",100);
+
         while (true) {
             System.out.println(dialog.hi());
 //            System.out.println(dialog.changeLanguage());
